@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'personal/style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <title>Nazish Akhtar</title>
+</head>
+<body>
+    <div class="container">
+        <div class="split left">
+            <h1>Nazish Akhtar</h1>
+            <div class="contact-me">
+                <a class="contact-me-link" href="https://www.facebook.com"><i id="fb" class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a class="contact-me-link" href="https://www.twitter.com"><i id="tweet" class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a class="contact-me-link" href="https://www.google.com"><i  id="github" class="fa fa-github" aria-hidden="true"></i></a>
+                <a class="contact-me-link" href="https://pinterest.com"><i id="linkedin" class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <div class="split right">
+          <h1 class="intro">whoami</h1>
+          <p class="box"> Hello There, I wasn't expecting you here! Thank you for visiting.</p>
+          <a href="/blog" class="button">Blog</a>
+        </div>
+      </div>
+    <script src="{% static 'personal/main.js' %}" type="text/javascript"></script>
+</body>
+</html>
